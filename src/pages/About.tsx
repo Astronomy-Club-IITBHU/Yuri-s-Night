@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Footer } from '../components/Footer';  // ✅ Import Footer
 
 export function About() {
   return (
@@ -87,7 +88,9 @@ export function About() {
             </ul>
           </motion.div> */}
         </div>
+        {/* <Footer /> */}
       </motion.div>
+      <Footer />
     </div>
   );
 }

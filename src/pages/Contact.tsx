@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
+import { Footer } from '../components/Footer';  // ✅ Import Footer
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -90,6 +91,7 @@ export function Contact() {
             <p className="mb-4">Or reach us at:</p>
             <p className="text-blue-400">XXX@gmail.com</p>
           </motion.div>
+          <Footer />
         </div>
       </div>
     </div>
