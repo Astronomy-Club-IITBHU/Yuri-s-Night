@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer';  // ✅ Import Footer
 
 export function About() {
   return (
-    <div className="min-h-[calc(100vh-5rem)] py-16">
+    <div className="min-h-[calc(100vh-5rem)]">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

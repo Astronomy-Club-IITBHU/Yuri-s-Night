@@ -100,7 +100,7 @@ export function Sponsors() {
         <div className="absolute inset-0 rounded-2xl border-2 border-transparent bg-gradient-to-r from-blue-400 to-purple-600 opacity-30"></div>
 
         <h2 className="text-3xl font-semibold mb-4 text-white">
-          Become a <span className="text-blue-400">Sponsor</span>
+          Become a <span className="text-blue-400">Collaborator</span>
         </h2>
 
         <p className="text-gray-300 mb-6 text-justify leading-relaxed">
@@ -109,7 +109,7 @@ export function Sponsors() {
         </p>
 
         <button className="relative bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-blue-500/50">
-          Get Sponsorship Info
+          Get Info
         </button>
       </motion.div>
 
