@@ -49,8 +49,8 @@ export function Team() {
           Meet Our Team
         </motion.h1>
 
-        {/* Team Grid (With Centered Last Row) */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
+        {/* 3x2 Grid */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
           {team.map((member, index) => (
             <motion.div
               key={member.name}
@@ -77,9 +77,6 @@ export function Team() {
               </p>
             </motion.div>
           ))}
-
-          {/* Center the last row when only 1 element is left */}
-          {team.length % 4 === 3 && <div className="hidden lg:block"></div>}
         </div>
       </div>
 
