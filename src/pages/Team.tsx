@@ -7,37 +7,32 @@ export function Team() {
     {
       name: "Ayush Shrivastava",
       role: "CONVENOR",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/AyushShrivastava_Convenor.jpg",
     },
     {
       name: "Jatin Kumar",
       role: "CO - CONVENOR",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/JATIN_CO_CONVENOR.jpg",
     },
     {
       name: "Rajneesh Mishra",
       role: "CO - CONVENOR",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/RajneeshMishra_CO_Convenor.jpg",
     },
     {
       name: "Shlok Saxena",
       role: "SECRETARY",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/Shlok_Astro_Secy.jpg",
     },
     {
       name: "Raj Singh",
       role: "JT. SECRETARY",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/RAJ_ASTRO_JT.SECY.jpg",
     },
     {
       name: "Ankesh Ansh",
       role: "JT. SECRETARY",
-      image: "/images/IIT_BHU_image.jpg",
-    },
-    {
-      name: "Aditya Tiwari",
-      role: "SENIOR CORE TEAM",
-      image: "/images/IIT_BHU_image.jpg",
+      image: "/images/Ankesh_Astro_Jt.Secy (1).jpg",
     },
   ];
 
