@@ -54,7 +54,7 @@ export function Guests() {
                   {guest.name}
                 </h2>
                 <p className="text-purple-400 mb-2">{guest.title}</p>
-                <p className="text-gray-300">Speaking on: {guest.topic}</p>
+                {/* <p className="text-gray-300">Speaking on: {guest.topic}</p> */}
               </div>
             </motion.div>
           ))}
