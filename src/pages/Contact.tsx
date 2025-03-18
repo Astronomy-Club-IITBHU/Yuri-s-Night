@@ -17,7 +17,7 @@ export function Contact() {
   };
 
   return (
-    <div className="min-h-[calc(100vh-5rem)] py-16">
+    <div className="min-h-[calc(100vh-5rem)]">
       <div className="container mx-auto px-4">
         <motion.h1 
           initial={{ opacity: 0, y: -20 }}
@@ -82,7 +82,7 @@ export function Contact() {
             </button>
           </motion.form>
           
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
@@ -90,10 +90,10 @@ export function Contact() {
           >
             <p className="mb-4">Or reach us at:</p>
             <p className="text-blue-400">XXX@gmail.com</p>
-          </motion.div>
-          <Footer />
+          </motion.div> */}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

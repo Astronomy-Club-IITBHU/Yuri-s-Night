@@ -26,7 +26,7 @@ export function Guests() {
   ];
 
   return (
-    <div className="min-h-[calc(100vh-5rem)] py-16">
+    <div className="min-h-[calc(100vh-5rem)]">
       <div className="container mx-auto px-4">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
