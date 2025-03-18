@@ -34,16 +34,18 @@ export function Home() {
 
   return (
     <div>
-      <div className="min-h-[calc(100vh-5rem)] flex items-center justify-center">
+      <div className="min-h-[calc(100vh-5rem)] flex items-center justify-center relative overflow-visible">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="container mx-auto px-4 text-center"
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 leading-snug pb-4">
             Yuri's Night 2025
           </h1>
+            
+          
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
             A Nocturnal Celebration of Humanity's Achievements in Space
             Exploration...

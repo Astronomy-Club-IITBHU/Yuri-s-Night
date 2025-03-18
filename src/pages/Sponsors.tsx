@@ -37,7 +37,7 @@ export function Sponsors() {
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-4xl md:text-6xl font-bold my-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600"
+        className="text-4xl md:text-6xl font-bold my-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600 pb-3"
       >
         Our Sponsors
       </motion.h1>

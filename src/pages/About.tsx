@@ -11,7 +11,7 @@ export function About() {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4"
       >
-        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 pb-3">
           About Yuri's Night
         </h1>
         <div className="max-w-3xl mx-auto space-y-8">

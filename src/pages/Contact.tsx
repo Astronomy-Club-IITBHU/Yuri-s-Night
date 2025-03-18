@@ -82,15 +82,15 @@ export function Contact() {
             </button>
           </motion.form>
           
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
             className="mt-12 text-center text-gray-300"
           >
             <p className="mb-4">Or reach us at:</p>
-            <p className="text-blue-400">XXX@gmail.com</p>
-          </motion.div> */}
+            <a href = "mailto:astronomyclub.iitbhu@gmail.com" className="text-blue-400">astronomyclub.iitbhu@gmail.com</a>
+          </motion.div>
         </div>
       </div>
       <Footer />
