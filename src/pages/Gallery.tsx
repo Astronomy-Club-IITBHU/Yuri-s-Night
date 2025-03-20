@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Footer } from '../components/Footer';  // ✅ Import Footer
 
 const images = Array.from({ length: 18 }, (_, index) => ({
-  url: `/images/gallery/Image${index + 1}.jpg`,
+  url: `images/gallery/Image${index + 1}.jpg`,
 }));
 
 export function Gallery() {
