@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Footer } from '../components/Footer';  // ✅ Import Footer
 
 const images = Array.from({ length: 18 }, (_, index) => ({
-  url: `/images/gallery/Image${index + 1}.jpg`,
+  url: `images/Image${index + 1}.jpg`,
 }));
 
 export function Gallery() {
@@ -118,11 +118,10 @@ export function Gallery() {
                   key={thumbIndex + index}
                   src={image.url}
                   alt={`Thumbnail ${thumbIndex + index + 1}`}
-                  className={`w-20 h-20 object-cover rounded-lg cursor-pointer border-4 ${
-                    (thumbIndex + index) % images.length === currentIndex
+                  className={`w-20 h-20 object-cover rounded-lg cursor-pointer border-4 ${(thumbIndex + index) % images.length === currentIndex
                       ? "border-blue-500 scale-110"
                       : "border-transparent"
-                  } transition-transform hover:scale-110`}
+                    } transition-transform hover:scale-110`}
                   onClick={() =>
                     goToSlide((thumbIndex + index) % images.length)
                   }

@@ -5,6 +5,25 @@ import { Footer } from '../components/Footer';  // ✅ Import Footer
 export function Guests() {
   const guests = [
     {
+      name: "Dr. José Juan González Avilés",
+      title: "Escuela Nacional de Estudios Superiores (ENES), Unidad Morelia, UNAM.",
+      image: "images/intguest.png",
+      topic: "",
+    },
+    {
+      name: "Dr. Liton Majumdar",
+      title: "Principal Investigator and Group Lead | NISER | SEPS",
+      image: "images/image.png",
+      topic: "",
+    },
+    {
+      name: "Dr. Varun Sheel",
+      title:
+        "Senior Professor | Head | Planetary Science Division",
+      image: "images/varun_guest.png",
+      topic: "",
+    },
+    {
       name: "Prof. Dibyendu Chakrabarty",
       title: "Professor | Physical Research Laboratory",
       image: "images/IIT_BHU_image.jpg",
@@ -58,7 +77,7 @@ export function Guests() {
               </div>
             </motion.div>
           ))}
-          
+
         </div>
       </div>
       <Footer />
