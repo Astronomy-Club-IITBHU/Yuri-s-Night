@@ -7,20 +7,20 @@ export function Guests() {
     {
       name: "Dr. José Juan González Avilés",
       title: "Escuela Nacional de Estudios Superiores (ENES), Unidad Morelia, UNAM.",
-      image: "images/intguest.jpg",
+      image: "/images/intguest.jpg",
       topic: "",
     },
     {
       name: "Dr. Liton Majumdar",
       title: "Principal Investigator and Group Lead | NISER | SEPS",
-      image: "images/image.jpg",
+      image: "/images/image.jpg",
       topic: "",
     },
     {
       name: "Dr. Varun Sheel",
       title:
         "Senior Professor | Head | Planetary Science Division",
-      image: "images/varun_guest.jpg",
+      image: "/images/varun_guest.jpg",
       topic: "",
     },
     {
